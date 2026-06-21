@@ -116,4 +116,64 @@ span{
 .nav-cart p{
     font-size: 1.2rem;
     margin-top: 5px;
+     font-weight: bold   ;
+
+}
+
+/* panel1 */
+
+.panel{
+    height: 40px;
+    width: 100%;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-opt p{
+    display: inline;
+    margin-left: 15px;
+
+}
+.panel-opt{
+    width: 60%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+
+/* herosection */
+
+.hero-sec{
+    background-image: url("herobg.jpg");
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.hero-msg{
+    color: #0f1111;
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+    justify-content: center;
+    margin-bottom: 25px;
+    width: 90%;
+
+}
+.hero-msg a{
+    color: #007185;
+}
+.hero-msg p:hover{
+    background-color: #f5f6f6;
 }
