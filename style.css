@@ -177,3 +177,64 @@ span{
 .hero-msg p:hover{
     background-color: #f5f6f6;
 }
+
+
+/* shop-section */
+.shop-sec{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #f66c10;
+}
+
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 22%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-bottom: 1rem;
+
+}
+.box-img{
+    /* background-image: url(game.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px ;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.game{
+    background-image: url(game.jpg);
+}
+.shirt{
+    background-image: url(shirt.jpg);
+}
+.washing{
+    background-image: url(washing.jpg);
+}
+.furniture{
+    background-image: url(furnitureimg.jpg);
+}
+.phone{
+    background-image: url(phone.jpg);
+}
+.decor{
+    background-image: url(cushion.jpg);
+}
+.bag{
+    background-image: url(bag.jpg);
+}
+.chips{
+    background-image: url(chips.jpg);
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p a{
+    font-size: 0.85rem;
+    color: #007185;
+    text-decoration: none;
+}
