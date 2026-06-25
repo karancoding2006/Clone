@@ -149,7 +149,7 @@ span{
 /* herosection */
 
 .hero-sec{
-    background-image: url("herobg.jpg");
+    background-image: url("images/herobg.jpg");
     background-size: cover;
     height: 350px;
     width: 100%;
@@ -206,28 +206,39 @@ span{
     margin-bottom: 1rem;
 }
 .game{
-    background-image: url(game.jpg);
+    background-image: url(images/game.jpg);
 }
 .shirt{
-    background-image: url(shirt.jpg);
+    background-image: url(images/shirt.jpg);
 }
 .washing{
-    background-image: url(washing.jpg);
+    background-image: url(images/washing.jpg);
 }
 .furniture{
-    background-image: url(furnitureimg.jpg);
+    background-image: url(images/furnitureimg.jpg);
 }
 .phone{
-    background-image: url(phone.jpg);
+    background-image: url(images/phone.jpg);
 }
 .decor{
-    background-image: url(cushion.jpg);
+    background-image: url(images/cushion.jpg);
 }
 .bag{
-    background-image: url(bag.jpg);
+    background-image: url(images/bag.jpg);
 }
 .chips{
-    background-image: url(chips.jpg);
+    background-image: url(images/chips.jpg);
+}
+.fashion{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+}
+.fashion img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .box-content{
     margin-left: 1rem;
