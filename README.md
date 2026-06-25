@@ -83,6 +83,7 @@ AmazonClone/
 ├── style.css
 └── images/
     ├── herobg.jpg
+    ├──amazon_PNG11
     ├── game.jpg
     ├── washing.jpg
     ├── fashion1–4.jpg
@@ -91,4 +92,5 @@ AmazonClone/
     ├── cushion.jpg
     ├── bag.jpg
     └── chips.jpg
+
 ```
